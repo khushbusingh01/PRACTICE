@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background-color: orange;
+            display: flex;
+           /* flex-direction: row;*/
+          /* flex-direction: row-reverse;*/
+          /* justify-content: right;*/
+           flex-wrap: wrap;
+           flex-flow:row-reverse wrap ;
+          /* align-items: flex-end;*/
+           height: 50px;
+           align-content: space-around;
+
+          
+        }
+        .item{
+            background-color: orangered;
+            width: 20px;
+           /* margin: 5px;*/
+            color: #fff;
+            text-align: center;
+        }
+        .Item1{
+           /* order: 2;
+            align-self: flex-start;*/
+          /*  flex-grow: 2;*/
+         /* flex-shrink: 2;*/
+         /* width: 30px;*/
+        }
+        .Item2{
+            order: 4;
+        
+        }
+        .Item3{
+            order: 6;
+        }
+    @media only screen and (min-width: 375px)
+  and (max-width: 667px)
+  and (orientation: landscape)
+  and (-webkit-min-device-pixel-ratio: 2)
+{
+    .container{
+        background-color: #fff;
+    }
+
+ }
+
+            
+        
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!---div.Item*4{$}---->
+        <div class="Item1 item">1</div>
+        <div class="Item2 item">2</div>
+        <div class="Item3 item">3</div>
+        <div class="Item4 item">4</div>
+       <!--- <div class="item">1</div>
+        <div class="item">2 </div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+        <div class="item">7</div>
+        <div class="item">8</div>
+        <div class="item">9</div>
+        <div class="item">10</div>
+        <div class="item">11</div>
+        <div class="item">12</div>
+        <div class="item">13</div>
+        <div class="item">14</div>
+        <div class="item">15</div>
+        <div class="item">16</div>
+        <div class="item">17</div>
+        <div class="item">18</div>
+        <div class="item">19</div>
+        <div class="item">20</div>--->
+
+    </div>
+    
+</body>
+</html>
